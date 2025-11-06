@@ -1,4 +1,0 @@
-[ 2025-11-06 23:32:54,087 ] 37 root - INFO - Entered the data ingestion method or component
-[ 2025-11-06 23:32:54,092 ] 41 root - INFO - Read the dataset from source 
-[ 2025-11-06 23:32:54,096 ] 46 root - INFO - Train Test Split
-[ 2025-11-06 23:32:54,104 ] 51 root - INFO - Ingestion of data completed
