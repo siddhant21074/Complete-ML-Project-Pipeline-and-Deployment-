@@ -1,3 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
 .artifacts
 .env
 .myenv
@@ -6,3 +14,25 @@ myenv/
 ENV/
 env.bak/
 myenv.bak/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+artifacts/
+Logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
