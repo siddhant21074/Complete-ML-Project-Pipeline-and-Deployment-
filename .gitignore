@@ -1,1 +1,8 @@
-
+.artifacts
+.env
+.myenv
+env/
+myenv/
+ENV/
+env.bak/
+myenv.bak/
