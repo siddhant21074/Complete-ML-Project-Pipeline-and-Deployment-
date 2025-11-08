@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import sys
 from pathlib import Path
+from sklearn.model_selection import train_test_split
+from dataclasses import dataclass
 
 # Add project root to Python path - handle both direct execution and module import
 if __file__:
@@ -16,10 +18,11 @@ project_root_str = str(project_root)
 if project_root_str not in sys.path:
     sys.path.insert(0, project_root_str)
 
+# Import src modules after adding project root to path
 from src.exception import CustomException
 from src.logger import logging
-from sklearn.model_selection import train_test_split
-from dataclasses import dataclass
+from src.Components.data_transformation import DataTransformation 
+from src.Components.data_transformation import DataTransformationConfig
 
 @dataclass
 class DataIngestionClass:
@@ -59,4 +62,6 @@ class DataIngestion:
             
 if __name__ == "__main__": 
     obj = DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data,test_data=obj.initiate_data_ingestion()
+    data_transformation=DataTransformation()
+    data_transformation.initiate_data_transformation(train_data,test_data)

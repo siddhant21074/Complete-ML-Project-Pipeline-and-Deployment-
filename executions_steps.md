@@ -16,3 +16,6 @@ which is nothing but import data from various sources such as web, dataset or ot
 11) Now we perform eda and in eda.ipynb and we now start model training in model_training.ipynb file
 12) So as our problem statement is regression problem we will try to use all the regression problem algos to see which performs best on this dataset 
 13) After the model training we then do the data ingestion in which data from any source is collected and splitted into the raw, train and test data by creating there folders 
+
+14) Now we do the data transformation in which we convert our data from categorical to numnerical or we also change the numerical value or scale it accordingly 
+15) for this we use pipelines for numberical and categorical values which at once deals with both the columns, we create a seperate pipelines for numerical and categorical columns 
