@@ -24,7 +24,6 @@ ENV/
 *~
 
 # Project specific
-artifacts/
 Logs/
 *.log
 
