@@ -20,3 +20,5 @@ which is nothing but import data from various sources such as web, dataset or ot
 14) Now we do the data transformation in which we convert our data from categorical to numnerical or we also change the numerical value or scale it accordingly 
 15) for this we use pipelines for numberical and categorical values which at once deals with both the columns, we create a seperate pipelines for numerical and categorical columns 
 16) After data transformation we create a model trainer file in which we will test best regression model which will give best accuracy 
+17) We trained our model by trying all the best possible models and we got the best model as linear regression with 87% accuracy 
+18) We can tune our model based upon our model called as hyper parameter tuning 
